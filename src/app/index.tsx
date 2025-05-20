@@ -1,4 +1,4 @@
-// /src/app/index.tsx
+// src/app/index.tsx
 import Image from 'next/image';
 import Head from 'next/head';
 
