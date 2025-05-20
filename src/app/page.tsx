@@ -1,15 +1,9 @@
-// page.tsx
+// app/page.tsx
 import Image from 'next/image';
-import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
-      <Head>
-        <title>John De Oliveira | Portfolio</title>
-        <meta name="description" content="Portfolio of John De Oliveira" />
-      </Head>
-
       <header className="flex flex-col items-center justify-center py-12">
         <Image
           src="/profile.jpg"
